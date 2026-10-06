@@ -1,74 +1,117 @@
-# Controller Assignment — G1 Main Research Pass 2: Canonical Test Class
+# Controller Assignment — G1 Main Research Pass 3: Minimal Organization-Component Basis
 
 **Role:** Main Research  
 **Gate:** G1 — Mathematical Definition  
 **Authorization:** ACTIVE  
 **G1 remains IN PROGRESS. G2 is not authorized.**
 
-Read `MASTER_INSTRUCTIONS.md`, `STATUS.md`, G1 Pass 1, and `research/G1_SPECIALIST_ENDOGENOUS_MAINTENANCE.md` before starting.
+Read `MASTER_INSTRUCTIONS.md`, `STATUS.md`, G1 Passes 1–2, the endogenous-maintenance Specialist artifact, canonical definitions/notation, and all G1 negative results before starting.
 
 ## Controller assessment
 
-The Specialist result is accepted as substantive G1 input. The provisional Endogenous Maintenance Certificate (EMC), combining the Restoration-Current Criterion (RCC) and Closed Renewal-Dependency Criterion (CRDC), has **not** earned universal canonical status.
+Endogenous maintenance is now mathematically auditable on a restricted canonical stochastic reaction-compartment test class. The single remaining G1 blocker is:
 
-The remaining blocker is representation/boundary identifiability.
+> **Organization-component sufficiency/necessity:** identify a minimal, nonredundant family of mathematically defined organization-profile components beyond endogenous maintenance that survives the established counterexample programme without circularly encoding “life.”
+
+Do not solve this by inventing an arbitrary weighted scalar.
 
 ## Single objective
 
-Define and analyze the **narrowest useful canonical test class** on which the provisional EMC becomes mathematically well-posed and auditable.
+Construct and adversarially reduce a candidate **organization-component basis** for the scale-indexed profile `mathfrak O_S(ell,tau)`.
 
-Start with the Specialist recommendation: an **open stochastic chemical reaction network / reaction-compartment class** with explicit chemostats, transport/boundary species, optional external controller/repair channels, identifiable reaction currents, viability variables, and declared observation maps.
+The purpose is not to define life. It is to determine which distinct mathematical axes of organization must remain available before G2 can formulate candidate bounds.
 
-Do not attempt to cover all physical systems in this pass.
+## Candidate families to test
 
-## Required work
+At minimum assess, with authoritative provenance:
 
-1. Give a precise mathematical definition of the proposed test class: species/state space, stochastic dynamics/generator or equivalent, reactions/stoichiometry, chemostats/reservoirs, system boundary, exchange channels, controller/repair channels, path law and observation horizon.
+- endogenous maintenance / renewal;
+- catalytic or reaction-network closure;
+- intervention-backed dependency/constraint closure;
+- memory;
+- heredity / persistence of transmissible state where mathematically applicable;
+- predictive information;
+- causal/directed dependence where defensible;
+- spatial organization / compartmentalization;
+- topology only where physically meaningful;
+- dynamical robustness/stability;
+- cross-scale coupling or multiscale dependence.
 
-2. Define non-circular rules for typing channels as supply, forcing, external feedback/control, external repair/replacement, or internal process-mediated transitions.
+You may add/remove families if mathematically justified.
 
-3. Define a predeclared viability observable/region and degradation/loss transitions without defining them by the desired EMC outcome.
+## Required tests for every component
 
-4. Instantiate RCC, CRDC and EMC explicitly on this class. State every assumption required for reaction removal/intervention and for dependency edges.
+For each candidate give:
 
-5. Construct at least a small family of explicit model cases representing:
-   - passive/no-renewal persistence;
-   - externally maintained/controlled persistence;
-   - open autocatalytic chemistry without maintained compartment;
-   - reaction-compartment/endogenous-maintenance candidate;
-   - internally self-repairing engineered analogue where representable.
+1. precise mathematical object and domain;
+2. units/dimensionality;
+3. scale dependence;
+4. relation to canonical observation maps;
+5. what it detects that other components do not;
+6. counterexamples producing a high value without the intended distinction;
+7. redundancy/dependence relations with other components;
+8. whether it is necessary for the **organization profile**, not whether it is necessary for “life.”
 
-Analytical examples are preferred; computation may be used only as lightweight support if it does not constitute premature G9 work.
+Distinguish descriptors from discriminators.
 
-6. Test boundary refinement and at least one coarse-graining/observation change. Determine exactly which provenance labels and dependency relations must be preserved for an EMC verdict to remain meaningful.
+## Adversarial reduction
 
-7. Decide which parts, if any, have earned canonical status. Only promote definitions that survive these tests into `mathematics/definitions.md` and `mathematics/notation.md`. Keep EMC provisional if its remaining dependence is still scientifically material.
+Use the accumulated counterexample set and extend it where needed, including at least:
 
-8. Update provenance and negative results.
+- crystal/frozen order;
+- random/high-entropy state;
+- oscillator;
+- convection/turbulence;
+- passive correlated systems;
+- static information archive;
+- externally controlled/repaired machine;
+- internally self-repairing engineered machine;
+- bare/open autocatalytic network;
+- compartment-maintaining reaction network;
+- replicator/heritable system lacking substantial self-maintenance where a clean model is available.
 
-## G1 completion audit
+Build a component × counterexample discrimination matrix.
 
-At the end, reassess all G1 prerequisites, not just maintenance:
+Attempt to remove each candidate component. If removing it loses no mathematically relevant distinction not already represented by the remaining components, mark it redundant for the current basis.
 
-- admissible system class;
-- explicit system/environment boundary;
-- dynamics/path law;
-- spatial and temporal scales;
-- observation/coarse-graining maps;
-- canonical notation;
-- candidate organization profile/components;
-- endogenous-maintenance object;
-- distinction from information, dissipation, correlation, persistence and externally maintained control;
-- counterexample resistance.
+Do not claim logical necessity beyond the admitted model/counterexample class unless proved.
 
-Do not mark G1 complete merely because the test class works. If G1 remains incomplete, identify the **single precise remaining blocker**.
+## Multiscale requirement
 
-## Deliverable
+For retained components, state how they transform or fail to transform under `C_{ell,tau}`. Identify which comparisons require provenance-preserving observation maps and which admit data-processing/monotonicity statements.
 
-Create `research/G1_PASS_2_CANONICAL_TEST_CLASS.md`, update relevant canonical files only where earned, update `STATUS.md`, source ledger and negative results, and use the repository branch/PR workflow.
+Do not assume universal monotonicity.
 
-## End-of-pass decision report
+## Deliverables
 
-Report the canonical test class, EMC outcome, definitions promoted/rejected, strongest counterexample, coarse-graining/boundary result, whether G1 is genuinely complete, and the single highest-value next action.
+Create:
 
-Stop. Do not enter G2 and do not perform an Independent Review unless subsequently authorized by the Workflow Controller.
+`research/G1_PASS_3_MINIMAL_COMPONENT_BASIS.md`
+
+and a durable matrix/artifact under `mathematics/` if useful.
+
+Update canonical definitions/notation only for components that earn canonical **profile-component** status. A component can be canonical as an axis without being sufficient for organization or life.
+
+Update source ledger, negative results, and `STATUS.md`.
+
+## G1 closure test
+
+At the end, decide whether G1 now supplies:
+
+- a sufficiently precise admitted/test domain;
+- boundary/dynamics/path semantics;
+- multiscale observation semantics;
+- a mathematically defined organization-profile type;
+- a minimal/nonredundant candidate component basis on the admitted domain;
+- explicit distinctions from nearby concepts;
+- counterexample resistance adequate to begin proposing candidate bounds.
+
+If yes, do **not** self-authorize G2. Mark G1 as **REVIEW CANDIDATE** (not COMPLETE) and recommend Independent Review.
+
+If no, keep G1 IN PROGRESS and state exactly one remaining blocker.
+
+## End-of-pass report
+
+Report branch/PR state, retained and rejected components, discrimination matrix result, strongest redundancy finding, strongest counterexample, canonicalizations made, G1 closure assessment, and the single highest-value next action.
+
+Stop. Do not enter G2 and do not introduce `Phi`.

@@ -1,117 +1,76 @@
-# Controller Assignment — G1 Main Research Pass 3: Minimal Organization-Component Basis
+# Controller Assignment — Independent Review of G1 Mathematical Definition
 
-**Role:** Main Research  
-**Gate:** G1 — Mathematical Definition  
-**Authorization:** ACTIVE  
-**G1 remains IN PROGRESS. G2 is not authorized.**
+**Role:** Independent Reviewer  
+**Gate under review:** G1 — Mathematical Definition  
+**Authorization:** ACTIVE REVIEW  
+**G1 is REVIEW CANDIDATE, not COMPLETE. G2 remains blocked.**
 
-Read `MASTER_INSTRUCTIONS.md`, `STATUS.md`, G1 Passes 1–2, the endogenous-maintenance Specialist artifact, canonical definitions/notation, and all G1 negative results before starting.
+Read `MASTER_INSTRUCTIONS.md`, `STATUS.md`, all G1 research artifacts, `mathematics/definitions.md`, `mathematics/notation.md`, `mathematics/G1_COMPONENT_DISCRIMINATION_MATRIX.md`, all G1 negative-results files, and the source ledger.
 
-## Controller assessment
+Do not continue Main Research. Your job is adversarial evaluation of the completed G1 milestone.
 
-Endogenous maintenance is now mathematically auditable on a restricted canonical stochastic reaction-compartment test class. The single remaining G1 blocker is:
+## Review question
 
-> **Organization-component sufficiency/necessity:** identify a minimal, nonredundant family of mathematically defined organization-profile components beyond endogenous maintenance that survives the established counterexample programme without circularly encoding “life.”
+> Is the G1 mathematical foundation sufficiently precise, non-circular, internally consistent, and operational to close G1 and permit the Controller to authorize G2 — Candidate Organization Bound?
 
-Do not solve this by inventing an arbitrary weighted scalar.
+## Required review
 
-## Single objective
+### 1. Domain and mathematical substrate
+Audit the admitted state/path framework, boundary semantics, exchange channels, scales, observation maps, and restricted stochastic reaction-compartment test class. Identify hidden assumptions, circular definitions, or domain gaps that would invalidate later bound construction.
 
-Construct and adversarially reduce a candidate **organization-component basis** for the scale-indexed profile `mathfrak O_S(ell,tau)`.
+### 2. Endogenous maintenance
+Audit RCC, CRDC and the provisional EMC. Check whether channel provenance, viability predeclaration, reaction-removal intervention, boundary refinement and EMC-admissible observation maps genuinely address passive persistence and external control without smuggling autonomy/life into the premises.
 
-The purpose is not to define life. It is to determine which distinct mathematical axes of organization must remain available before G2 can formulate candidate bounds.
+### 3. Seven-axis basis
+Adversarially test:
+- `O_maint`
+- `O_cat`
+- `O_dep`
+- `O_hered`
+- `O_spatial`
+- `O_robust`
+- `O_xscale`
 
-## Candidate families to test
+Pay special attention to:
+- whether catalysis is actually nonredundant with intervention-backed dependency closure;
+- whether heredity belongs in a general organization profile or only a domain-conditional extension;
+- whether robustness is sufficiently operational rather than a family too broad to bound;
+- whether cross-scale organization is defined precisely enough to function as an axis rather than a placeholder;
+- whether the claimed removal/minimality argument is supported by the discrimination matrix or merely asserted.
 
-At minimum assess, with authoritative provenance:
+Attempt to construct counterexamples that collapse two purportedly independent axes or expose a missing axis.
 
-- endogenous maintenance / renewal;
-- catalytic or reaction-network closure;
-- intervention-backed dependency/constraint closure;
-- memory;
-- heredity / persistence of transmissible state where mathematically applicable;
-- predictive information;
-- causal/directed dependence where defensible;
-- spatial organization / compartmentalization;
-- topology only where physically meaningful;
-- dynamical robustness/stability;
-- cross-scale coupling or multiscale dependence.
+### 4. Rejected descriptors
+Check whether rejecting generic memory, predictive information, transfer entropy/directed statistical dependence, and generic topology as independent axes loses any distinction needed before G2.
 
-You may add/remove families if mathematically justified.
+### 5. Multiscale integrity
+Audit transformation statements under `C_{ell,tau}`. Check all claimed uses of data processing and the provenance-preserving restrictions. Do not accept vague “multiscale” language as a substitute for a mathematical object.
 
-## Required tests for every component
+### 6. Provenance and epistemic discipline
+Spot-check sources and ensure established results, project definitions, assumptions, candidate criteria, and conjectural claims are correctly separated.
 
-For each candidate give:
+### 7. Gate verdict
+Return exactly one substantive verdict:
 
-1. precise mathematical object and domain;
-2. units/dimensionality;
-3. scale dependence;
-4. relation to canonical observation maps;
-5. what it detects that other components do not;
-6. counterexamples producing a high value without the intended distinction;
-7. redundancy/dependence relations with other components;
-8. whether it is necessary for the **organization profile**, not whether it is necessary for “life.”
+- **PASS G1** — foundation is adequate for Controller-authorized G2;
+- **PASS WITH MINOR CORRECTIONS** — corrections are repository/editorial or mathematically local and do not require another foundational research pass;
+- **FAIL G1 — MAJOR REVISION** — identify the single highest-priority mathematical defect that blocks G2.
 
-Distinguish descriptors from discriminators.
+Do not pass G1 merely because substantial work exists.
 
-## Adversarial reduction
+## Deliverable
 
-Use the accumulated counterexample set and extend it where needed, including at least:
+Create `reviews/G1_INDEPENDENT_REVIEW.md`.
 
-- crystal/frozen order;
-- random/high-entropy state;
-- oscillator;
-- convection/turbulence;
-- passive correlated systems;
-- static information archive;
-- externally controlled/repaired machine;
-- internally self-repairing engineered machine;
-- bare/open autocatalytic network;
-- compartment-maintaining reaction network;
-- replicator/heritable system lacking substantial self-maintenance where a clean model is available.
+Record:
+1. verdict;
+2. major findings ranked by severity;
+3. exact counterexamples/defects found;
+4. source/provenance concerns;
+5. required corrections;
+6. whether another specialist is necessary;
+7. whether G2 can responsibly begin.
 
-Build a component × counterexample discrimination matrix.
+Do not rewrite Main Research artifacts yourself except for trivial review bookkeeping. Do not mark G1 COMPLETE and do not enter G2. The Workflow Controller will make the gate decision after reading your review.
 
-Attempt to remove each candidate component. If removing it loses no mathematically relevant distinction not already represented by the remaining components, mark it redundant for the current basis.
-
-Do not claim logical necessity beyond the admitted model/counterexample class unless proved.
-
-## Multiscale requirement
-
-For retained components, state how they transform or fail to transform under `C_{ell,tau}`. Identify which comparisons require provenance-preserving observation maps and which admit data-processing/monotonicity statements.
-
-Do not assume universal monotonicity.
-
-## Deliverables
-
-Create:
-
-`research/G1_PASS_3_MINIMAL_COMPONENT_BASIS.md`
-
-and a durable matrix/artifact under `mathematics/` if useful.
-
-Update canonical definitions/notation only for components that earn canonical **profile-component** status. A component can be canonical as an axis without being sufficient for organization or life.
-
-Update source ledger, negative results, and `STATUS.md`.
-
-## G1 closure test
-
-At the end, decide whether G1 now supplies:
-
-- a sufficiently precise admitted/test domain;
-- boundary/dynamics/path semantics;
-- multiscale observation semantics;
-- a mathematically defined organization-profile type;
-- a minimal/nonredundant candidate component basis on the admitted domain;
-- explicit distinctions from nearby concepts;
-- counterexample resistance adequate to begin proposing candidate bounds.
-
-If yes, do **not** self-authorize G2. Mark G1 as **REVIEW CANDIDATE** (not COMPLETE) and recommend Independent Review.
-
-If no, keep G1 IN PROGRESS and state exactly one remaining blocker.
-
-## End-of-pass report
-
-Report branch/PR state, retained and rejected components, discrimination matrix result, strongest redundancy finding, strongest counterexample, canonicalizations made, G1 closure assessment, and the single highest-value next action.
-
-Stop. Do not enter G2 and do not introduce `Phi`.
+Use a review branch/PR workflow, update `STATUS.md` only to record that review was completed/pending Controller decision, and stop.

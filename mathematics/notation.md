@@ -33,3 +33,17 @@
 | \(I(U;V)\) | mutual information | information functional | bits/nats | established measure; candidate component |
 
 No universal organization scalar, closure functional, maintenance functional, catalytic score or organization exponent is canonical.
+
+## G1 Pass 3 profile-axis notation
+
+| Symbol | Meaning | Domain/type | Units | Status |
+|---|---|---|---|---|
+| \(O_{\rm maint}\) | endogenous-maintenance/renewal axis | boundary-relative observable family | mixed/model-dependent | canonical profile axis |
+| \(O_{\rm cat}\) | catalytic/reaction-network organization axis | chemical/reaction-network observable family | combinatorial and/or rate units | canonical profile axis |
+| \(O_{\rm dep}\) | intervention-backed dependency/constraint axis | graph/effect observable family | dimensionless graph; edge weights model-dependent | canonical profile axis |
+| \(O_{\rm hered}\) | heritable/transmissible-state axis | transmission-event observable family | bits/nats or probabilities | canonical profile axis; domain-conditional |
+| \(O_{\rm spatial}\) | spatial/compartment organization axis | spatial/boundary observable family | geometry/model-dependent | canonical profile axis |
+| \(O_{\rm robust}\) | dynamical robustness/stability axis | perturbation-response observable family | probability/time/rate/model-dependent | canonical profile axis |
+| \(O_{\rm xscale}\) | cross-scale dependence/coupling axis | scale-pair/family observable | measure-dependent | canonical profile axis |
+
+Generic memory, predictive information, transfer entropy/directed statistical dependence and topology remain descriptors/subcomponents rather than independent profile axes after the G1 Pass 3 removal audit.

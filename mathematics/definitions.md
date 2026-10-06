@@ -63,3 +63,53 @@ Aggregations mixing internal and external provenance are not EMC-admissible.
 Entropy, entropy production, mutual information, correlation length, graph complexity, topology, dynamical stability, RAF membership, persistence, predictive information, RCC, CRDC, EMC, or closure individually are **not** canonical definitions of organization.
 
 RCC, CRDC and EMC remain provisional maintenance criteria. See \`research/G1_SPECIALIST_ENDOGENOUS_MAINTENANCE.md\` and \`research/G1_PASS_2_CANONICAL_TEST_CLASS.md\`.
+
+## D13. Canonical organization-profile component basis
+
+**[DEF: profile-axis basis, G1 domain-relative]** On the admitted G1 domains, the organization profile retains the following mathematically distinct component axes:
+\[
+\mathfrak O_{\mathcal S}(\ell,\tau)
+=
+\{
+O_{\rm maint},
+O_{\rm cat},
+O_{\rm dep},
+O_{\rm hered},
+O_{\rm spatial},
+O_{\rm robust},
+O_{\rm xscale}
+\}_{\ell,\tau}.
+\]
+
+These are **axis/type definitions**, not scalar scores, sufficient conditions for organization, or criteria for life. Exact observables may be families and must declare their domain, units and observation map.
+
+### D13a. Endogenous-maintenance axis \(O_{\rm maint}\)
+Records boundary-relative evidence of internally mediated renewal against declared loss/degradation, including restoration currents, intervention effects and provenance/dependency information where applicable. RCC/CRDC/EMC remain provisional implementations, not universal definitions.
+
+### D13b. Catalytic-organization axis \(O_{\rm cat}\)
+Records catalytic/reaction-network organization, such as RAF/subRAF structure and, where required, kinetic catalytic currents on a declared chemical reaction representation. It is domain-specific and depends on species/reaction/food resolution.
+
+### D13c. Intervention-backed dependency axis \(O_{\rm dep}\)
+Records mechanistic support/dependency relations admitted by declared interventions under explicit modularity assumptions. Correlation or transfer entropy alone does not establish an edge.
+
+### D13d. Heredity axis \(O_{\rm hered}\)
+Where a transmission/reproduction map and heritable variables are declared, records persistence/transmission of state across those events using fidelity/error kernels, parent-descendant information or equivalent mathematically specified observables. For systems without such a map the axis is **not applicable (N/A)**, not zero.
+
+### D13e. Spatial/compartment axis \(O_{\rm spatial}\)
+Records physically declared spatial localization, interfaces, compartment membership, segregation or maintained boundary organization. It is explicitly spatial-scale dependent; topology may appear as a subdescriptor only when physically justified.
+
+### D13f. Dynamical-robustness axis \(O_{\rm robust}\)
+Records response, survival or return under a predeclared perturbation class, using model-appropriate quantities such as exit/return probabilities or times, spectral stability or Lyapunov-type measures where defined.
+
+### D13g. Cross-scale axis \(O_{\rm xscale}\)
+Records dependence/coupling between explicitly declared scale representations, using information-, response-, dependency- or mechanism-preservation observables appropriate to a declared pair/family of observation maps. No single universal cross-scale statistic or monotonicity law is assumed.
+
+**[SCOPE]** This seven-axis basis is minimal/nonredundant only relative to the current admitted G1 model and counterexample class. Universal logical necessity is not claimed.
+
+## D14. Descriptor versus profile axis
+
+**[DEF]** A **profile axis** is retained when removing it loses a mathematically relevant distinction on the admitted model/counterexample class that the remaining axes do not represent.
+
+**[DEF]** A **descriptor** is a valid observable that may characterize a system but has not earned independent-axis status under the current adversarial removal test.
+
+At G1 Pass 3, generic memory, predictive information, directed statistical dependence/transfer entropy, generic topology, generic correlation, information content and dissipation remain descriptors/diagnostics or subcomponents rather than independent canonical profile axes.

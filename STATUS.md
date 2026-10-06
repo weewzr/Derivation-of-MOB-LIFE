@@ -2,23 +2,23 @@
 
 ## Operational ledger
 
-- **Current gate:** G0 — Repository Foundation
-- **Gate status:** COMPLETE — required G0 foundation was merged to and verified on canonical `main`. **G1 is NOT STARTED and is not authorized by this status update.**
-- **Completed artifacts:** canonical README; master instructions and gate discipline; operational status ledger; research directory; source/provenance ledger; canonical locations for mathematical definitions and notation; case-decomposition and derivation locations; future computation location; independent review/audit location; negative-results location.
-- **Unresolved prerequisites:** None for G0. G1 has separate substantive prerequisites and requires explicit Workflow Controller advancement.
-- **Active research question:** None. This pass completed repository/governance foundation only.
-- **Known blockers:** No mathematical blocker assessed at G0. The absence of G1 definitions is expected and is not a G0 defect.
-- **Next intended action:** Stop. Await Workflow Controller decision. If advanced to G1, establish precise mathematical definitions, domains, scales, admissible system class, notation, and candidate organization observables without formulating or deriving a bound prematurely.
-- **Review / specialist / audit status:** G0 closure received an internal repository read-back audit of required canonical files. No domain specialist or Independent Reviewer is warranted yet; independent mathematical review becomes useful once substantive G1/G2 objects exist.
-- **Last substantive update:** 2026-10-04 — PR #1 merged as G0 foundation; canonical `main` read-back verified; G0 marked complete.
+- **Current gate:** G1 — Mathematical Definition
+- **Gate status:** **IN PROGRESS** — Controller-authorized G1 Pass 1 completed on research branch; G1 is not complete and G2 is not authorized.
+- **Completed artifacts:** G0 foundation; G1 Pass 1 framework survey; candidate admissible-system analysis; canonical trajectory/path, boundary, exchange-channel, scale and observation-map definitions; organization-profile type; source ledger S001–S016; explicit counterexample/negative-result register.
+- **Unresolved prerequisites:** admissible system category remains too broad; operational endogenous-maintenance criterion unresolved; boundary semantics for externally controlled versus self-maintaining systems need sharpening; component transformation laws under coarse-graining unresolved; closure has not yet been operationalized as a measurable non-circular object; no necessary/sufficient organization component set established.
+- **Active research question:** What operational, path-level definition of endogenous maintenance distinguishes internal renewal/constraint closure from equilibrium persistence or externally imposed maintenance under an explicit system/environment boundary?
+- **Known blockers:** passive persistence and external control mimic several candidate organization observables; coarse-graining can generate effective memory; no scalar aggregation is justified.
+- **Next intended action:** Stop after G1 Pass 1 and await Workflow Controller instruction. Recommended next G1 pass: attack endogenous maintenance and boundary semantics using stochastic/open-system and reaction-network formalisms.
+- **Review / specialist / audit status:** A narrow specialist in stochastic processes/stochastic thermodynamics plus open reaction-network modelling is warranted for the maintenance/boundary question. Independent Review is premature until that ambiguity is reduced and a narrower admissible system class is proposed.
+- **Last substantive update:** 2026-10-06 — G1 Pass 1 completed; canonical definitions/notation and provenance updated; counterexample programme recorded. G1 remains IN PROGRESS.
 
 ## Gate ledger
 
 | Gate | State | Completion criterion / note |
 |---|---|---|
-| G0 Repository Foundation | **COMPLETE** | Required durable structure exists on canonical `main` and was read-back verified. |
-| G1 Mathematical Definition | **NOT STARTED** | Must establish explicit definitions, domains, scales, admissible systems, consistent notation, and organization observables suitable for later bounds. Requires Workflow Controller advancement. |
-| G2 Candidate Organization Bound | BLOCKED | Requires completed G1. |
+| G0 Repository Foundation | **COMPLETE** | Durable structure exists on canonical `main`. |
+| G1 Mathematical Definition | **IN PROGRESS** | Pass 1 established core substrate but maintenance, boundary semantics, system category, coarse-graining laws and component sufficiency remain unresolved. |
+| G2 Candidate Organization Bound | **BLOCKED** | Requires completed G1 and subsequent Controller authorization. |
 | G3 Regular/Special Case | BLOCKED | Requires completed G2. |
 | G4 Exhaustive Case Decomposition | BLOCKED | Requires prior gates. |
 | G5 Known-Physics Bound | BLOCKED | Requires prior gates. |
@@ -28,14 +28,19 @@
 | G9 Computational Verification | BLOCKED | Requires a defined derivation/computational target. |
 | G10 Experimental Implications | BLOCKED | Requires prior validated programme. |
 
-## G0 closure evidence
+## G1 Pass 1 evidence
 
-- Initial repository seed commit: `a2e08b5aefed07cc5b81ec9c9c475d577e876b11`.
-- Foundation branch: `foundation/g0-bootstrap`.
-- Foundation pull request: **#1 — G0: establish MOB-LIFE repository foundation**.
-- Squash merge commit: `3553bd801de92899a796e70e732353d77fc126db`.
-- Post-merge audit: required G0 files successfully fetched from `main`.
+- Controller authorization: commit `0be89985629e1eaa622ba3e6a184c30eb7e982c1`, `research/CONTROLLER_NEXT_ACTION.md`.
+- Research artifact: `research/G1_PASS_1_MATHEMATICAL_UNIVERSE.md`.
+- Canonical definitions: `mathematics/definitions.md`.
+- Canonical notation: `mathematics/notation.md`.
+- Counterexamples: `negative-results/G1_PASS_1_COUNTEREXAMPLES.md`.
+- Provenance: `sources/source-ledger.md` entries S001–S016.
+
+## Scientific state after Pass 1
+
+No final organization scalar, bound, `Phi` mechanism, or G2 object has been introduced. Information, energy/entropy production, correlation, topology, stability, network complexity, persistence, RAF status and closure individually remain insufficient or provisional as definitions of organization.
 
 ## External material
 
-Material outside this repository, including prior chat discussions and external instruction documents, is not treated as completed repository research. Useful material may be migrated later with explicit provenance and epistemic classification.
+Material outside this repository is not completed repository research unless migrated with explicit provenance and epistemic classification.

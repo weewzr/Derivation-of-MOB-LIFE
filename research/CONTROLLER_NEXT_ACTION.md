@@ -1,153 +1,107 @@
-# Controller Assignment — G1 Pass 1
+# Controller Assignment — G1 Specialist Pass: Endogenous Maintenance
 
-**Role:** Main Research  
+**Role:** Specialist — stochastic processes / stochastic thermodynamics / open reaction-network modelling  
 **Gate:** G1 — Mathematical Definition  
 **Authorization:** ACTIVE  
-**Do not advance to G2 without a subsequent Workflow Controller decision.**
+**G1 remains IN PROGRESS. G2 is not authorized.**
 
-Read `MASTER_INSTRUCTIONS.md` and `STATUS.md` before starting.
+Read `MASTER_INSTRUCTIONS.md`, `STATUS.md`, `research/G1_PASS_1_MATHEMATICAL_UNIVERSE.md`, `mathematics/definitions.md`, `mathematics/notation.md`, and `negative-results/G1_PASS_1_COUNTEREXAMPLES.md` before starting.
 
-## Objective
+## Single specialist question
 
-Establish the mathematical universe in which a future quantity or family of quantities representing organization could be rigorously defined.
+> What operational, path-level definition of **endogenous maintenance** can distinguish persistence produced by internal renewal/constraint-support processes from (a) equilibrium/passive persistence and (b) persistence imposed by an external controller or maintainer, under an explicit system/environment boundary?
 
-Central question:
+This is a narrow G1 specialist task. Do not design the final MOB, do not aggregate organization into a scalar, do not advance to G2, and do not introduce `Phi`.
 
-> What mathematical objects, domains, scales, observation/coarse-graining operations, and candidate observables are required before “organization” can become a well-posed object suitable for later bounds?
+## Required investigation
 
-Do not formulate the final Multiscale Organization Bound in this pass. Do not introduce an unknown organizing field `Phi`. The programme remains
+Work from known physics/chemistry and established mathematics. Compare, where relevant:
 
-[
-H_0 = \text{known physics/chemistry}
-]
+- stochastic-process and path-space formulations;
+- stochastic thermodynamics of open driven systems;
+- controlled versus autonomous Markov processes;
+- open chemical reaction networks;
+- reaction currents, renewal/turnover and material replacement;
+- RAF/autocatalytic-set formalisms;
+- constraint/closure formalisms;
+- intervention/counterfactual ideas only where they can be stated without importing unjustified causal claims.
 
-using established mathematics.
+Determine whether maintenance can be expressed using observable or model-defined path quantities such as renewal fluxes, reaction/current structure, dependency relations, viability-region return/restoration, internal versus externally supplied control channels, or combinations thereof.
 
-## 1. Survey relevant established frameworks
+## Boundary discipline
 
-Research authoritative frameworks relevant to defining organization in nonequilibrium matter, including:
+The criterion must explicitly depend on a declared boundary `mathcal B` and exchange channels `mathcal J`.
 
-- dynamical systems;
-- stochastic processes / Markov processes;
-- nonequilibrium statistical mechanics;
-- information theory;
-- stochastic thermodynamics;
-- network and graph descriptions;
-- spatial correlation functions;
-- temporal correlation and memory;
-- multiscale/coarse-grained descriptions;
-- topology where genuinely relevant;
-- reaction networks and catalysis;
-- constraint and closure concepts;
-- mathematically formalized self-maintaining/autocatalytic organization.
+It must not define the boundary by first identifying the thing judged to be organized.
 
-This is not an encyclopedic literature review. Determine what MOB-LIFE should inherit, adapt, distinguish, or reject. Prefer primary papers, authoritative monographs, and strong scholarly reviews. Record provenance in the source ledger.
+Make explicit what counts as:
 
-## 2. Define the admissible system class
+1. environmental supply of raw matter/energy;
+2. environmental forcing;
+3. external feedback/control;
+4. internal process-mediated restoration/renewal.
 
-Develop candidate definitions for the initial system class. Make explicit candidates for objects such as
+A living system is allowed to depend on environmental matter and free energy. Therefore “endogenous” must not mean energetically isolated or independent of the environment.
 
-[
-X,\quad \Omega,\quad x(t),\quad P[x_{0:T}],
-]
+## Required adversarial tests
 
-or better representations where justified.
+Any proposed criterion must be tested against at least:
 
-Address system state, deterministic/stochastic dynamics, spatial degrees of freedom, system/environment boundary, open driven systems, energy/matter exchange, and trajectory/path ensembles where needed. Explain why each object is required.
+- equilibrium crystal;
+- frozen passive structure;
+- simple driven convection/pattern;
+- externally thermostatted or feedback-controlled machine;
+- externally repaired machine;
+- simple oscillator;
+- simple RAF without maintained compartment;
+- open autocatalytic network;
+- a minimal self-maintaining reaction/compartment model if an established one is available.
 
-## 3. Establish the multiscale architecture
+Identify false positives and false negatives explicitly.
 
-Define how spatial and temporal scales enter. Investigate justified observation/coarse-graining maps such as
+## Deliverable
 
-[
-C_{\ell,\tau}:X\to X_{\ell,\tau}.
-]
+Create:
 
-Clarify what `ell` and `tau` represent, what coarse-graining preserves/destroys, whether organization should be invariant/covariant/monotone/neither under coarse-graining, and whether scale spectra are needed.
+`research/G1_SPECIALIST_ENDOGENOUS_MAINTENANCE.md`
 
-Wang–Zahl is methodological inspiration only. Do not manufacture a Kakeya equivalence.
+The artifact must include:
 
-## 4. Candidate organization components
+1. precise problem statement;
+2. established frameworks/results used, with provenance;
+3. at least two serious candidate mathematical definitions or criteria;
+4. assumptions and domains for each;
+5. explicit boundary/control semantics;
+6. adversarial counterexample table;
+7. comparison of candidates;
+8. recommendation: adopt, reject, or retain provisionally;
+9. exact unresolved obstruction if none succeeds.
 
-Do not prematurely collapse organization into one scalar. Identify mathematically distinct candidate components, critically investigating where appropriate:
+Add authoritative sources to `sources/source-ledger.md`.
 
-- spatial correlation;
-- temporal persistence;
-- memory;
-- mutual information;
-- predictive information;
-- causal/dependency structure;
-- network organization;
-- topology;
-- catalytic organization;
-- constraint structure;
-- dynamical stability;
-- closure;
-- multiscale dependence.
+Record informative failures in `negative-results/`.
 
-For each candidate determine: mathematical definition/candidate definition; domain; units/dimensionality; scale dependence; epistemic status; physical feature captured; limitations; and whether high values occur in obviously nonliving systems.
+Do **not** silently promote a candidate into `mathematics/definitions.md`. Recommend canonicalization to Main Research/Controller; canonical project definitions should be integrated only after the specialist result is assessed.
 
-Do not equate information, energy, complexity, organization, and life.
+## Success condition
 
-## 5. Counterexample programme
+Success does not require finding a perfect definition.
 
-Actively attack candidate definitions using systems including:
+A successful specialist pass either:
 
-- equilibrium crystals;
-- random noise;
-- frozen disorder;
-- turbulent flows;
-- convection patterns;
-- externally controlled machines;
-- simple oscillators;
-- highly correlated passive systems;
-- high-information systems without self-maintenance;
-- simple autocatalytic networks.
+- supplies a precise candidate that survives the stated adversarial tests under explicit assumptions; or
+- proves/argues clearly why the current notion is underdetermined and identifies the minimal additional structure needed.
 
-Identify which proposed properties are insufficient and which distinctions must survive. Record scientifically informative failures in `negative-results/`.
+## End-of-pass report
 
-## 6. Canonical artifacts
+Report:
 
-Update `mathematics/definitions.md` and `mathematics/notation.md` only with definitions/notation that earn canonical status.
+1. files/branch/PR/commit state;
+2. candidate criteria examined;
+3. strongest surviving criterion, if any;
+4. strongest counterexample;
+5. assumptions needed;
+6. whether the G1 maintenance/boundary blocker is resolved, narrowed, or unresolved;
+7. what Main Research should do with the result.
 
-Create a substantive G1 artifact under `research/` documenting frameworks examined, candidate system classes, multiscale architecture, organization components, counterexamples, unresolved ambiguities, sources, and recommendations for the next G1 pass.
-
-Use the epistemic labels required by `MASTER_INSTRUCTIONS.md`. Do not present project inventions as established results.
-
-## 7. Gate discipline
-
-Do **not** mark G1 complete merely because this pass finishes.
-
-Assess whether these are genuinely sufficiently precise:
-
-- admissible system class;
-- system/environment boundary;
-- dynamics;
-- spatial scales;
-- temporal scales;
-- observation/coarse-graining maps;
-- canonical notation;
-- candidate organization object(s);
-- distinction between organization and nearby concepts;
-- counterexample resistance.
-
-If any remain materially ambiguous, G1 remains **IN PROGRESS**.
-
-Update `STATUS.md` accordingly.
-
-## 8. End-of-pass report
-
-After committing the work, report:
-
-1. branch and commit/PR state;
-2. files created or changed;
-3. canonical definitions established;
-4. candidate definitions rejected or weakened;
-5. strongest counterexamples found;
-6. unresolved G1 questions;
-7. whether G1 remains in progress or is genuinely complete;
-8. whether a narrow specialist is required;
-9. whether Independent Review is warranted;
-10. the single highest-value next research question.
-
-Stop after this pass. Do not proceed into G2 without a subsequent Workflow Controller decision.
+Stop. Do not continue to G2 and do not perform an Independent Review.

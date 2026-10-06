@@ -3,21 +3,21 @@
 ## Operational ledger
 
 - **Current gate:** G1 — Mathematical Definition
-- **Gate status:** **IN PROGRESS** — Controller-authorized G1 Pass 1 completed on research branch; G1 is not complete and G2 is not authorized.
-- **Completed artifacts:** G0 foundation; G1 Pass 1 framework survey; candidate admissible-system analysis; canonical trajectory/path, boundary, exchange-channel, scale and observation-map definitions; organization-profile type; source ledger S001–S016; explicit counterexample/negative-result register.
-- **Unresolved prerequisites:** admissible system category remains too broad; operational endogenous-maintenance criterion unresolved; boundary semantics for externally controlled versus self-maintaining systems need sharpening; component transformation laws under coarse-graining unresolved; closure has not yet been operationalized as a measurable non-circular object; no necessary/sufficient organization component set established.
-- **Active research question:** What operational, path-level definition of endogenous maintenance distinguishes internal renewal/constraint closure from equilibrium persistence or externally imposed maintenance under an explicit system/environment boundary?
-- **Known blockers:** passive persistence and external control mimic several candidate organization observables; coarse-graining can generate effective memory; no scalar aggregation is justified.
-- **Next intended action:** Stop after G1 Pass 1 and await Workflow Controller instruction. Recommended next G1 pass: attack endogenous maintenance and boundary semantics using stochastic/open-system and reaction-network formalisms.
-- **Review / specialist / audit status:** A narrow specialist in stochastic processes/stochastic thermodynamics plus open reaction-network modelling is warranted for the maintenance/boundary question. Independent Review is premature until that ambiguity is reduced and a narrower admissible system class is proposed.
-- **Last substantive update:** 2026-10-06 — G1 Pass 1 completed; canonical definitions/notation and provenance updated; counterexample programme recorded. G1 remains IN PROGRESS.
+- **Gate status:** **IN PROGRESS** — Controller-authorized G1 Pass 1 and endogenous-maintenance Specialist pass completed on research branches; G1 is not complete and G2 is not authorized.
+- **Completed artifacts:** G0 foundation; G1 Pass 1 framework survey; candidate admissible-system analysis; canonical trajectory/path, boundary, exchange-channel, scale and observation-map definitions; organization-profile type; endogenous-maintenance Specialist pass with RCC, CRDC and provisional conjunctive EMC; source ledger S001–S022; explicit counterexample/negative-result registers.
+- **Unresolved prerequisites:** admissible system category remains too broad; endogenous maintenance is narrowed to a provisional boundary-relative certificate but is not representation-independent; boundary/channel typing, maintained variables, dependency granularity and time-scale selection remain non-unique; component transformation laws under coarse-graining unresolved; closure has not yet been canonicalized as a measurable non-circular object; no necessary/sufficient organization component set established.
+- **Active research question:** Can the provisional Endogenous Maintenance Certificate be made well-posed on a narrower open stochastic CRN/reaction-compartment class with explicit chemostats, controller/repair channels, viability variables and coarse-graining provenance?
+- **Known blockers:** maintenance verdict remains sensitive to boundary choice, channel provenance, component granularity, observation horizon and coarse-graining; an internally self-repairing engineered machine legitimately satisfies endogenous maintenance, showing maintenance is weaker than life/organization; no scalar aggregation is justified.
+- **Next intended action:** Specialist pass stops here and awaits Main Research/Controller assessment. Recommended next G1 action: instantiate the provisional maintenance certificate on a narrowly defined open stochastic CRN/reaction-compartment class and test boundary refinements/coarse-graining before any canonicalization.
+- **Review / specialist / audit status:** Endogenous-maintenance Specialist pass completed. It recommends provisional retention, not canonicalization. Independent Review remains premature until Main Research narrows the admissible system class and assesses the certificate.
+- **Last substantive update:** 2026-10-06 — G1 endogenous-maintenance Specialist pass completed; blocker narrowed but not resolved; no canonical definition promoted. G1 remains IN PROGRESS.
 
 ## Gate ledger
 
 | Gate | State | Completion criterion / note |
 |---|---|---|
 | G0 Repository Foundation | **COMPLETE** | Durable structure exists on canonical `main`. |
-| G1 Mathematical Definition | **IN PROGRESS** | Pass 1 established core substrate but maintenance, boundary semantics, system category, coarse-graining laws and component sufficiency remain unresolved. |
+| G1 Mathematical Definition | **IN PROGRESS** | Pass 1 established core substrate; Specialist pass supplied a provisional endogenous-maintenance certificate, but boundary/representation identifiability, system category, coarse-graining laws and component sufficiency remain unresolved. |
 | G2 Candidate Organization Bound | **BLOCKED** | Requires completed G1 and subsequent Controller authorization. |
 | G3 Regular/Special Case | BLOCKED | Requires completed G2. |
 | G4 Exhaustive Case Decomposition | BLOCKED | Requires prior gates. |
@@ -44,3 +44,13 @@ No final organization scalar, bound, `Phi` mechanism, or G2 object has been intr
 ## External material
 
 Material outside this repository is not completed repository research unless migrated with explicit provenance and epistemic classification.
+
+## G1 Endogenous-Maintenance Specialist evidence
+
+- Controller authorization: commit `2335b9bda97c42669f2f7e264aa70216769345c0`, `research/CONTROLLER_NEXT_ACTION.md`.
+- Specialist artifact: `research/G1_SPECIALIST_ENDOGENOUS_MAINTENANCE.md`.
+- Candidate criteria: Restoration-Current Criterion (RCC); Closed Renewal-Dependency Criterion (CRDC); provisional conjunctive Endogenous Maintenance Certificate (EMC).
+- Negative results: `negative-results/G1_SPECIALIST_ENDOGENOUS_MAINTENANCE_FAILURES.md`.
+- Provenance: `sources/source-ledger.md` entries S017–S022.
+- Specialist conclusion: **maintenance/boundary blocker NARROWED, NOT RESOLVED**. EMC is retained provisionally and is not canonicalized into `mathematics/definitions.md`.
+- Strongest scope counterexample: a fully internally self-repairing engineered machine can satisfy EMC; therefore endogenous maintenance must not be equated with life or organization.

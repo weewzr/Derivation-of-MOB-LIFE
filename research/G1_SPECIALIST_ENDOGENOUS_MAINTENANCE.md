@@ -241,7 +241,7 @@ An open stochastic CRN with explicit chemostats, transport/boundary species and 
 
 ## 11. End-of-pass report
 
-1. **Files/branch/PR/commit state:** specialist artifact prepared on `research/g1-specialist-endogenous-maintenance`; source ledger, negative-result register and status are updated in the same branch. PR/commit state is reported after repository writes complete.
+1. **Files/branch/PR/commit state:** completed on branch `research/g1-specialist-endogenous-maintenance`; files changed are this specialist artifact, `sources/source-ledger.md`, `negative-results/G1_SPECIALIST_ENDOGENOUS_MAINTENANCE_FAILURES.md`, and `STATUS.md`. Pull request **#3** targets `main`. The pre-bookkeeping branch head was commit `1b634d17a48ee3603a8457b517c95aaed09fc148`; this end-of-pass bookkeeping update is the final Specialist commit.
 2. **Candidate criteria examined:** RCC; CRDC; conjunctive EMC.
 3. **Strongest surviving criterion:** EMC, provisionally and boundary-relative.
 4. **Strongest counterexample:** a fully internally automated self-repairing engineered machine can satisfy EMC. It defeats any attempt to equate endogenous maintenance with life/organization, but not the maintenance criterion itself.

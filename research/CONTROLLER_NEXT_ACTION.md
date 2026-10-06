@@ -1,107 +1,74 @@
-# Controller Assignment — G1 Specialist Pass: Endogenous Maintenance
+# Controller Assignment — G1 Main Research Pass 2: Canonical Test Class
 
-**Role:** Specialist — stochastic processes / stochastic thermodynamics / open reaction-network modelling  
+**Role:** Main Research  
 **Gate:** G1 — Mathematical Definition  
 **Authorization:** ACTIVE  
 **G1 remains IN PROGRESS. G2 is not authorized.**
 
-Read `MASTER_INSTRUCTIONS.md`, `STATUS.md`, `research/G1_PASS_1_MATHEMATICAL_UNIVERSE.md`, `mathematics/definitions.md`, `mathematics/notation.md`, and `negative-results/G1_PASS_1_COUNTEREXAMPLES.md` before starting.
+Read `MASTER_INSTRUCTIONS.md`, `STATUS.md`, G1 Pass 1, and `research/G1_SPECIALIST_ENDOGENOUS_MAINTENANCE.md` before starting.
 
-## Single specialist question
+## Controller assessment
 
-> What operational, path-level definition of **endogenous maintenance** can distinguish persistence produced by internal renewal/constraint-support processes from (a) equilibrium/passive persistence and (b) persistence imposed by an external controller or maintainer, under an explicit system/environment boundary?
+The Specialist result is accepted as substantive G1 input. The provisional Endogenous Maintenance Certificate (EMC), combining the Restoration-Current Criterion (RCC) and Closed Renewal-Dependency Criterion (CRDC), has **not** earned universal canonical status.
 
-This is a narrow G1 specialist task. Do not design the final MOB, do not aggregate organization into a scalar, do not advance to G2, and do not introduce `Phi`.
+The remaining blocker is representation/boundary identifiability.
 
-## Required investigation
+## Single objective
 
-Work from known physics/chemistry and established mathematics. Compare, where relevant:
+Define and analyze the **narrowest useful canonical test class** on which the provisional EMC becomes mathematically well-posed and auditable.
 
-- stochastic-process and path-space formulations;
-- stochastic thermodynamics of open driven systems;
-- controlled versus autonomous Markov processes;
-- open chemical reaction networks;
-- reaction currents, renewal/turnover and material replacement;
-- RAF/autocatalytic-set formalisms;
-- constraint/closure formalisms;
-- intervention/counterfactual ideas only where they can be stated without importing unjustified causal claims.
+Start with the Specialist recommendation: an **open stochastic chemical reaction network / reaction-compartment class** with explicit chemostats, transport/boundary species, optional external controller/repair channels, identifiable reaction currents, viability variables, and declared observation maps.
 
-Determine whether maintenance can be expressed using observable or model-defined path quantities such as renewal fluxes, reaction/current structure, dependency relations, viability-region return/restoration, internal versus externally supplied control channels, or combinations thereof.
+Do not attempt to cover all physical systems in this pass.
 
-## Boundary discipline
+## Required work
 
-The criterion must explicitly depend on a declared boundary `mathcal B` and exchange channels `mathcal J`.
+1. Give a precise mathematical definition of the proposed test class: species/state space, stochastic dynamics/generator or equivalent, reactions/stoichiometry, chemostats/reservoirs, system boundary, exchange channels, controller/repair channels, path law and observation horizon.
 
-It must not define the boundary by first identifying the thing judged to be organized.
+2. Define non-circular rules for typing channels as supply, forcing, external feedback/control, external repair/replacement, or internal process-mediated transitions.
 
-Make explicit what counts as:
+3. Define a predeclared viability observable/region and degradation/loss transitions without defining them by the desired EMC outcome.
 
-1. environmental supply of raw matter/energy;
-2. environmental forcing;
-3. external feedback/control;
-4. internal process-mediated restoration/renewal.
+4. Instantiate RCC, CRDC and EMC explicitly on this class. State every assumption required for reaction removal/intervention and for dependency edges.
 
-A living system is allowed to depend on environmental matter and free energy. Therefore “endogenous” must not mean energetically isolated or independent of the environment.
+5. Construct at least a small family of explicit model cases representing:
+   - passive/no-renewal persistence;
+   - externally maintained/controlled persistence;
+   - open autocatalytic chemistry without maintained compartment;
+   - reaction-compartment/endogenous-maintenance candidate;
+   - internally self-repairing engineered analogue where representable.
 
-## Required adversarial tests
+Analytical examples are preferred; computation may be used only as lightweight support if it does not constitute premature G9 work.
 
-Any proposed criterion must be tested against at least:
+6. Test boundary refinement and at least one coarse-graining/observation change. Determine exactly which provenance labels and dependency relations must be preserved for an EMC verdict to remain meaningful.
 
-- equilibrium crystal;
-- frozen passive structure;
-- simple driven convection/pattern;
-- externally thermostatted or feedback-controlled machine;
-- externally repaired machine;
-- simple oscillator;
-- simple RAF without maintained compartment;
-- open autocatalytic network;
-- a minimal self-maintaining reaction/compartment model if an established one is available.
+7. Decide which parts, if any, have earned canonical status. Only promote definitions that survive these tests into `mathematics/definitions.md` and `mathematics/notation.md`. Keep EMC provisional if its remaining dependence is still scientifically material.
 
-Identify false positives and false negatives explicitly.
+8. Update provenance and negative results.
+
+## G1 completion audit
+
+At the end, reassess all G1 prerequisites, not just maintenance:
+
+- admissible system class;
+- explicit system/environment boundary;
+- dynamics/path law;
+- spatial and temporal scales;
+- observation/coarse-graining maps;
+- canonical notation;
+- candidate organization profile/components;
+- endogenous-maintenance object;
+- distinction from information, dissipation, correlation, persistence and externally maintained control;
+- counterexample resistance.
+
+Do not mark G1 complete merely because the test class works. If G1 remains incomplete, identify the **single precise remaining blocker**.
 
 ## Deliverable
 
-Create:
+Create `research/G1_PASS_2_CANONICAL_TEST_CLASS.md`, update relevant canonical files only where earned, update `STATUS.md`, source ledger and negative results, and use the repository branch/PR workflow.
 
-`research/G1_SPECIALIST_ENDOGENOUS_MAINTENANCE.md`
+## End-of-pass decision report
 
-The artifact must include:
+Report the canonical test class, EMC outcome, definitions promoted/rejected, strongest counterexample, coarse-graining/boundary result, whether G1 is genuinely complete, and the single highest-value next action.
 
-1. precise problem statement;
-2. established frameworks/results used, with provenance;
-3. at least two serious candidate mathematical definitions or criteria;
-4. assumptions and domains for each;
-5. explicit boundary/control semantics;
-6. adversarial counterexample table;
-7. comparison of candidates;
-8. recommendation: adopt, reject, or retain provisionally;
-9. exact unresolved obstruction if none succeeds.
-
-Add authoritative sources to `sources/source-ledger.md`.
-
-Record informative failures in `negative-results/`.
-
-Do **not** silently promote a candidate into `mathematics/definitions.md`. Recommend canonicalization to Main Research/Controller; canonical project definitions should be integrated only after the specialist result is assessed.
-
-## Success condition
-
-Success does not require finding a perfect definition.
-
-A successful specialist pass either:
-
-- supplies a precise candidate that survives the stated adversarial tests under explicit assumptions; or
-- proves/argues clearly why the current notion is underdetermined and identifies the minimal additional structure needed.
-
-## End-of-pass report
-
-Report:
-
-1. files/branch/PR/commit state;
-2. candidate criteria examined;
-3. strongest surviving criterion, if any;
-4. strongest counterexample;
-5. assumptions needed;
-6. whether the G1 maintenance/boundary blocker is resolved, narrowed, or unresolved;
-7. what Main Research should do with the result.
-
-Stop. Do not continue to G2 and do not perform an Independent Review.
+Stop. Do not enter G2 and do not perform an Independent Review unless subsequently authorized by the Workflow Controller.
